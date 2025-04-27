@@ -1,0 +1,28 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Graph 130 - Zane Johnson</title>
+        <style>
+            .favorite-color {
+                color: #32cc2d; /* Replace with your favorite color hex code */
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Zane Johnson</h1>
+        <h2>School & Course</h2>
+        	<p>Everett Community College: Graph 130</p>
+        <h2>How many quarters have you attended EvCC?</h2>
+        	<p>4</p>
+        <h2>What degree/certificate program are you pursuing?</h2>
+    	 	<p>Associate in Web and Graphic Design</p>
+        <h2>Why did you choose this degree/certificate?</h2>
+        	<p>I think bulidng Websites and creating different kinds of designs is pretty cool</p>
+        <h2>What artist/designer inspires you? Why?</h2>
+        	<p>Probably Paul Rand because of how recognizable his art is and how it has affected modern loges to be more memorable</p>
+        <h2>What is your favorite color?</h2>
+        	<p class="favorite-color">Green (#32cc2d)</p>
+    </body>
+</html>
