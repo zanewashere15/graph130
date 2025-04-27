@@ -3,6 +3,8 @@ body {
     padding: 0px;
     font-size: 16px;
     box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    color : burlywood
 }
 
 
@@ -14,4 +16,8 @@ main {
 section {
     flex-grow: 2;
     width: 30%;
+    background-color: cornsilk;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
 }
