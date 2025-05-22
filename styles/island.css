@@ -1,0 +1,110 @@
+:root {
+    --green: #074817;
+    --white: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+}
+body, header, main, footer, section, article, aside {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+main, header, nav ul, footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: lightgray;
+}
+
+main section {
+    border: solid white 1px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* the following classes will govern these sections and make them work within the grid */
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item6 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.pic6, .pic4, .pic2 {
+    background-image: url(../images/island/sj-024.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.pic2 {
+    background-image: url(../images/island/sj-036.jpg);
+}
+.pic4 {
+    background-image: url(../images/island/sj-040.jpg);
+}
+
+.item7 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item8, .item9, .item10, .hero-orcas{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+/*styling element */
+
+header {
+    background-color: var(--white);
+    text-align: center;
+}
+
+header a, header p, nav a {
+    color: lightgray;
+    text-decoration: none;
+}
+.hero-orcasm, main section {
+    background-image: url(../images/island/sj-034.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+h1 {
+    color: var(--white);
+    text-transform: uppercase;
+    text-shadow: #074817 3px 3px 3px;
+    
+}
+nav ul {
+    background-color: var(--white);
+}
+nav ul li {
+    list-style-type: none;
+    text-align: center;
+    height: 100px;
+}
+nav ul li:hover {
+    background-color: lightgray;
+    color:var(--white);
+}
+main section {
+    height: 400px;
+
+}
+.item1 {
+    background-image: url(../images/island/sj-015.jpg);
+}
+.item3 {
+    background-image: url(../images/island/sj-016.jpg);
+}
+.item5 {
+    background-image: url(../images/island/sj-017.jpg);
+}
+.item7 {
+    background-image: url(../images/island/sj-018.jpg);
+}
+.item2, .item4, .item6 {
+    background-image: none;
+}
