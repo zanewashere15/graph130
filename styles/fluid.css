@@ -1,0 +1,67 @@
+/* Fluid CSS property */
+body, main, article, section, header, footer {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+nav a {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: white 2px solid;
+    padding:5px;
+}
+nav a:hover {
+   color: black;
+   background-color: white;
+}
+
+body {
+    padding: 100px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+section {
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+/* invidual classes for sections background images */
+.em {
+    background-image: url(../images/water/JPEG/1.jpg);
+    border: solid 2px darkorange;
+    font-size: 1.2em;
+}
+
+.rem {
+    background-image: url(../images/water/JPEG/2.jpg);
+    border: dotted darkred;
+}
+.percentage {
+    background-image: url(../images/water/JPEG/3.jpg);
+}
+.percentage p {
+    width: 75%;
+}
+.box {
+    background-image: url(../images/water/JPEG/6.jpg);
+    box-sizing: border-box;
+    border: solid dodgerblue 3m;
+}
+.vw {
+    background-image: url(../images/water/JPEG/5.jpg);
+    border: dashed 1vw;
+    font-size: 1vw;
+    box-sizing: border-box;
+}
+.hero {
+    background-image: url(../images/water/JPEG/3.jpg);
+    border-top-right-radius: 5m;
+}
+.hero p {
+    width: 50%;
+
+}
