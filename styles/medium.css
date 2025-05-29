@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-image: url(../images/cascademoutains/background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #344e5f;
+}
+
+.container {
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.8);  
+}
+.content {
+    box-sizing: border-box;
+    padding-left: 0.8em;
+    width: 60%;
+    float: left;
+}
+.sidebar {
+    float:right;
+    width:32%;
+    padding-bottom: .6em;
+}
+nav ul {
+    padding: 1.2em;
+    margin: 0 auto; /* Centers the <ul> inside nav */
+    text-align: center; /* Ensures inline-block <li> items center properly */
+    display: block;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a, nav a:link, nav a:visited {
+    padding: 1em;
+    display: block; /* Better for clickability */
+    border: 1px solid #44a5b5; /* You had a typo, missing the '#' */
+    text-decoration: none;
+    color: white;
+}
