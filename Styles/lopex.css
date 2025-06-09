@@ -1,8 +1,56 @@
-.hero-lopex {
+.hero-lopez {
     background-image: url(../images/island/sj-067.jpg);
     background-position: center;
     background-repeat: none;
-    ;
+    background-size: auto;
+    height: 200px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.main {
+    grid-auto-rows:minmax(400px, auto);
+    grid-template-areas:
+    "first second sidebar"
+    "first middle sidebar"
+    "first last sidebar"
+    "bottom1 bottom1 bottom2";
+}
 
-
+.item1 {
+    grid-area: first;
+    height: 100%;
+    background-image:url(../images/island/sj-063.jpg);
+}
+.item2 {
+    grid-area: second;;
+}
+.pic4 {
+    background-image: url(../images/island/sj-057.jpg);
+}
+.pic2 {
+    background-image: url(../images/island/sj-030.jpg);
+}
+.pic6 {
+    background-image: url(../images/island/sj-026.jpg);
+}
+.item3 {
+    grid-area: sidebar;
+    height: 100%;
+}
+.item4 {
+    grid-area: middle;
+    height: 100%;
+}
+.item5 {
+    grid-area: last;
+}
+.item6 {
+    grid-area: bottom1;
+}
+.item7 {
+    grid-area: bottom2;
+}   
+section { 
+    border: solid white 2px;
+    
 }
