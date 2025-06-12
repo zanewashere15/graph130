@@ -1,5 +1,18 @@
+.navbar{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.page-title a {
+    font-size: 22px;
+}
+
 .kiwi {
-    background-color: wheat;
+    background-color: rgb(80, 73, 62);
     border: radius 5px;
     padding: 10px;
     text-align: center;
@@ -19,7 +32,7 @@
 }
 .kiwi a {
     text-decoration: none;
-    color: black;
+    color: rgb(251, 251, 251);
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
@@ -30,3 +43,49 @@
 .kiwi a:hover {
     background-color: lightblue;
 }
+/*  mobile nav styles*/
+
+.toggle-button {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+@media screen and (max-width: 800) {}
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .toggle-button {
+        display: flex;
+    }
+    .kiwi {
+        display: none;
+        width: 100%;
+    }
+    .kiwi ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .kiwi ul li {
+        padding: 8px 16px;
+    }
+    .kiwi.active {
+        display: flex
+    }
+    nav a {
+        border: 0px;
+    }
