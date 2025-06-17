@@ -1,80 +1,23 @@
-body{
-    margin:0px;
-    Padding:0px;
-    box-sizing: border-box;
-    font-size: 16px;
-    background-image: url(../Dark-forest.jpg);
-    background-size: cover;
-    font-family: "Roboto", sans-serif;
+header{
+    background-color: blueviolet;
 }
 
-nav {
-    display: flex;
-    flex-wrap: wrap;
+nav{
+background-color: green;
 }
 
-nav p {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-
+main{
+   background-color: brown; 
 }
 
-header {
-    background-color: rgb 250, 259, 244 ;
+main ul{
+    background-color: black;
 }
-header img {
-    display: block;
-    margin:auto;
 
-}
-main, footer {
+li{
     color: white;
-    display: flex;
-    width: 70%;
-    justify-content: center;
-    margin: 30px auto;
 }
 
-article {
-    width:60%;
-    padding:10px;
-
-}
-
-article p {
-    border-bottom: solid 1px white;
-    padding-bottom: 10px;
-}
-
-main ul {
-    width:40%;
-    padding:10px;
-    align-tracks: flex-end;
-}
-
-main ul li {
-    list-style-type: none;
-    padding: 10px;
-    margin: 10px;
-    border:solid white 1px 
-    text-align center;
-
-
-}
-
-nav p:hover
-main ul li:hover {
-    background-color: white
-    colorslategray
-}
-
-h1 {
-    font-size: 2em;
-}
-h2 {
-    font-size: 2em;
-}
-p { 
-    line-height: 2em;
+footer{
+    color: rgb(9, 197, 9);
 }

@@ -36,36 +36,9 @@ grid-row-gap: 0px;
     font-size: 24px;
 }
 
-/*sidebar*/
-.container {
-    display: flex;
-    flex-direction: row;
-}
 
-.sidebar{
-    font-size: 20px;
-}
 
-.content {
-    display: flex;
-    flex-direction: column;
-    color: #000000;
-    min-height: 500px;
-    border-radius: 4px;
-    margin: 20px;
-    font-size: 40px;
-   
-}
 
-.sidebar {
-    flex-grow: 1;
-    min-width: 300px;
-}
-
-.content {
-    flex-grow: 5;
-    min-width: 630px;
-}
 
 span {
   float: left;
@@ -178,4 +151,66 @@ span {
     height: auto;
     display: block;
     margin:  auto;
+}
+
+/* Default (Desktop and large screens) */
+.parent {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.div1, .div2, .div3 {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Style for airplane image */
+.image1 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Smaller screens (tablets and down) */
+@media screen and (max-width: 961px) {
+  .parent {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .div1, .div2, .div3 {
+    font-size: 1.1em;
+  }
+
+  .topnav a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .red {
+    font-size: 1.3em;
+    text-align: center;
+  }
+}
+
+/* Small phones */
+@media screen and (max-width: 600px) {
+  .div1, .div2, .div3 {
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  .red {
+    font-size: 1.1em;
+  }
+
+  .topnav {
+    display: flex;
+    flex-direction: column;
+  }
 }
