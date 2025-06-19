@@ -159,7 +159,7 @@ span {
   margin: auto;
 }
 
-/* Default (Desktop and large screens) */
+/* Desktop and large screens */
 .parent {
   display: flex;
   gap: 20px;
@@ -180,7 +180,7 @@ span {
   margin: 20px auto;
 }
 
-/* Smaller screens (tablets and down) */
+/* Smaller screens  */
 @media screen and (max-width: 961px) {
   .parent {
     flex-direction: column;
