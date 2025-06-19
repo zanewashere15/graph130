@@ -24,6 +24,7 @@ grid-row-gap: 0px;
     height: 80%;
     display: block;
     margin:  auto;
+    margin: 20px auto;
 }
 
 .red {
@@ -83,9 +84,7 @@ span {
     width: 80%;
     height: 80%;
     display: block;
-    margin:  auto;
-    background-size: contain ;
-    
+    margin: 20px auto;
 }
 
 .magazine-grid {
@@ -153,10 +152,11 @@ span {
 }
 
 .image4 {
-  width: 100%;
-  height: auto;
+  width: 80%;
+  height: 80%;
   display: block;
   margin: auto;
+  margin: 20px auto;
 }
 
 /* Desktop and large screens */
